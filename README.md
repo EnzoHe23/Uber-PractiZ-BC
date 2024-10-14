@@ -1,4 +1,4 @@
-# Proyecto Especial: Análisis a empresa Uber (21/09 - 05/10)
+# Proyecto Especial: Análisis al servicio Uber Priority (21/09 - 05/10)
 
 ### Dashboard
 
@@ -22,11 +22,11 @@ El proyecto busca analizar información de la empresa Uber y generar insights de
 2. [📃 Objetivos y preguntas 📃](#-objetivos-y-preguntas-)
 3. [📊 Procedimientos 📊](#-procedimientos-)
 4. [📝 Conclusiones e ideas post-análisis 📝](#-conclusiones-e-ideas-post-análisis-)
-5. [📂 Ingresar al análisis en código 📂](#-ingresar-al-análisis-en-código-)
+5. [💡 Campañas propuestas 💡](#-campañas-propuestas-)
 
 ## 📰 Acerca del proyecto 📰
 
-El proyecto fue realizado durante el bootcamp "Data Analytics for Business". Como proyecto final, se tuvo que generar datasets con información variada de valor para Uber, como los clientes y viajes hechos, por ejemplo, y después analizarlos en un dashboard para obtener hallazgos que puedan ayudar a mejorar las ganancias de la empresa.
+El proyecto fue realizado durante el bootcamp "Data Analytics for Business". Como proyecto final, se tuvo que generar datasets con información variada de valor para Uber en su servicio Priority, como los clientes y viajes hechos, por ejemplo, y después analizarlos en un dashboard para obtener hallazgos que puedan ayudar a mejorar las ganancias de la empresa.
 
 Para generar los datos, utilizamos en su mayoría archivos de Google Sheets, con ayuda de funciones que mantengan los datos inicialmente en un estado aleatorio, para luego dejar los datos estáticos; en el caso de tablas como la tabla "Hechos", las generamos en archivos Excel con ayuda de ChatGPT, y tras unos retoques los subimos como archivos de Google Sheets.
 
@@ -37,10 +37,61 @@ La visualización de datos final fue hecha con ayuda de un dashboard en Power BI
 Las tablas creadas son las siguientes:
 
 - Clientes: Información de los clientes de Uber. Incluye por cada uno su código, DNI, edad, número de celular, distrito y provincia, nombre completo, estado, y última fecha activa.
-- Conductores: Información de los conductores: Incluye por cada uno su código, DNI, edad, fecha de ingreso y de última carrera, número de celular, nombre completo, estado, y código del tipo de auto.
+- Conductores: Información de los conductores: Incluye por cada uno su código, DNI, edad, fecha de ingreso y de última carrera (viaje), número de celular, nombre completo, estado, y código del tipo de auto.
 - Tipo de Auto: Información de los autos que utiliza la empresa. Incluye por cada uno su código, marca, modelo, y color.
 - Medio de pago: Lista de los medios de pago. Incluye solamente códigos y nombres de los medios de pago.
 - Precios: Lista de precios por distancia y horario. Incluye éstos dos últimos, junto al precio y al código respectivo.
 - Hechos: Información conjunta de todas las tablas anteriores. Representa los viajes hechos con el servicio de Uber desde agosto del 2023 hasta agosto del 2024.
 - Metas: Lista de monto transaccionado a alcanzar (meta) por cada mes y por cada año.
+
+## 📃 Objetivos y preguntas 📃
+
+El proyecto tuvo como único objetivo hallar oportunidades de mejora para el negocio de Uber.
+
+Hubieron 5 preguntas que se respondieron en este análisis:
+
+1. ¿Qué porcentaje de la meta total se cumplió en realidad?
+2. ¿Quiénes son los conductores que más viajes han realizado?
+3. ¿Cuál es el grupo de edad que más viajes realiza con Uber Priority?
+4. ¿Cuántos viajes alcanza Uber Priority a lo largo del tiempo?
+5. ¿En qué horarios se genera más dinero?
+
+## 📊 Procedimientos 📊
+
+1) Se generaron datos en archivos de Google Sheets para las tablas de Clientes, Conductores, Medio de pago, Tipo de auto y precios.
+2) Se generaron datos en archivos de Excel para las tablas de Excel y Metas.
+3) Se subieron los datasets a un dashboard en Power BI y se realizaron los toques finales a los datates.
+4) Se crearon dos indicadores para el análisis general.
+5) Se mejoró el análisis de información mediante varios gráficos.
+    1. Un mapa que muestra la ubicación de los viajes hechos con Uber Priority, con tamaños según la cantidad de viajes hechos.
+    2. Un gráfico de pastel que muestra las proporciones de viajes hechos por cada grupo de edad de los clientes.
+    3. Un gráfico de líneas que muestra la evolución de los viajes hechos por mes y año.
+    4. Un gráfico de barras verticales que muestra el monto transaccionado total por el horario de los viajes realizados.
+    5. Un gráfico de barras horizontales que muestra los 10 conductores con mayor número de viajes hechos.
+    6. Un gráfico de medidor radial que muestra el porcentaje de cumplimiento de las metas en total.
+6) Se realizaron 8 indicadores con ayuda de medidas DAX:
+    1. Número total de viajes
+    2. Número total de clientes
+    3. Ganancia neta (23% del monto transaccionado)
+    4. Monto transaccionado
+    5. Viajes cancelados
+    6. Porcentaje de conductores inactivos
+    7. Porcentaje de clientes inactivos
+    8. Minutos de espera promedio
+7) Se agregó un texto incluyendo el número promedio de viajes hechos por cliente, dentro del gráfico de líneas.
+8) Se publicó el dashboard en la web de forma pública.
+
+## 📝 Conclusiones e ideas post-análisis 📝
+
+1. Uber Priority alcanzó un porcentaje de cumplimiento del 93.98% durante todo el periodo. Ya que supera el 80% de cumplimiento, se puede deducir que hay buena oferta para la demanda. Se debería elaborar un plan para elevar el número de clientes.
+2. Quienes más usan Uber Priority se encuentran en el grupo de Adultez Temprana. Esto se puede deber a que se encuentran en una etapa donde se más importante salir a trabajar e ir a eventos de importancia social y laboral, además de que están acostumbrados al uso de tecnología.
+3. A nivel de viajes por mes en total, febrero del 2024 es el peor mes. Sin embargo, a nivel de viajes por día en promedio, ¡febrero del 2024 es el mejor mes!
+
+## 💡 Campañas propuestas 💡
+
+1. Limpieza de Playas con Uber Priority
+2. Refiere y Gana con Uber Priority
+3. Tercer Viaje con Descuento en playas y discotecas
+
+
 
