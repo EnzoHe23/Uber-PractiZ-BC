@@ -96,7 +96,7 @@ Hubieron 5 preguntas que se respondieron en este análisis:
 </p>
 
 - Objetivo: Incrementar el uso de Uber Priority en febrero, vinculando la campaña con actividades de impacto social durante el verano.
-- Resumen: Promover la limpieza de las playas junto a organizaciones y municipios, y promocionarla por redes sociales. Ofrecer un descuento del 30% en viajes hacia las playas a limpiar durante los días requeridos. Esto puede mejorarse si se coordina bien con los grupos de limpieza.
+- Resumen: Promover la limpieza de las playas junto a organizaciones y municipios, y promocionarla por redes sociales. Junto a ello, ofrecer un descuento del 30% en viajes hacia las playas a limpiar durante los días requeridos. Esto puede mejorarse si se coordina bien con los grupos de limpieza.
 
 2. Refiere y Gana con Uber Priority
 
@@ -105,7 +105,7 @@ Hubieron 5 preguntas que se respondieron en este análisis:
 </p>
 
 - Objetivo: Incentivar a los usuarios de UberPriority a referir nuevos clientes, ofreciendo viajes gratis al referidor tras alcanzar un número de referidos.
-- 
+- Resumen: Los usuarios comparten un código para referir clientes. Por cada 3 clientes, el usuario gana un viaje gratis, y sólo puedo obtener 3 viajes gratis por mes. El sistema se gestionará desde la propia app, y la campaña se promocionará por correo y redes sociales.
 
 3. Tercer Viaje con Descuento en playas y discotecas
 
@@ -114,5 +114,5 @@ Hubieron 5 preguntas que se respondieron en este análisis:
 </p>
 
 - Objetivo: Aumentar el número de viajes realizados con Uber Priority durante el mes de febrero, incentivando a los usuarios con un 30% de descuento en su tercer viaje a playas y discotecas.
-- 
-  
+- Resumen: Por cada 2 viajes de ida o vuelta a playas y discotecas, los usuarios obtienen un descuento del 30% en su próximo viaje. El descuento es aparte del propuesto en la primera campaña, y no es acumulable.
+
