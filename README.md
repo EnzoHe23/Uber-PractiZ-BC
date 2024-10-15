@@ -89,6 +89,8 @@ Hubieron 5 preguntas que se respondieron en este análisis:
 
 ## 💡 Campañas propuestas 💡
 
+Para ver más información, puede ver nuestra [presentación en PDF](https://github.com/EnzoHe23/Uber-PractiZ-BC/blob/main/Presentaci%C3%B3n%20de%20An%C3%A1lisis.pdf).
+
 1. Limpieza de Playas con Uber Priority
 
 <p align="center">
